@@ -1,0 +1,174 @@
+body {
+    background-color: #f1f5f8;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    background-color: #ffffff;
+
+    height: 461px;
+    width: 43em;
+    flex-direction: column;
+
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    
+    border-radius: 10px;
+    box-shadow: 0px 0px 9px 0px #c6c6c6;
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #f1f5f8;
+    margin-top: 26px;
+
+    height: 67px;
+
+    
+
+    align-items: center;
+
+    font-size: 40pt;
+    letter-spacing: 3px;
+    font-weight: 900;
+    color: #102b42;
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.sublinhado{
+    display: flex;
+    justify-content: center;
+    
+
+}
+p{
+    border-top: 6px solid #49a6ea;
+    width: 103px;
+    height: 45px;
+}
+
+
+#div-img {
+    margin-top: 30px;
+}
+
+.img {
+    display: flex;
+
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+
+    box-shadow: 9px -6px 0px 0px #49a6ea;
+    
+}
+
+
+.texto {
+    display: flex;
+    height: 195px;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 15pt;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    /*color: #7491a5;*/
+
+}
+
+.nome {
+    margin: 22px 0 5px 0;
+    font-size: 15pt;
+    letter-spacing: 4px;
+    color: #163755;
+}
+
+.job {
+    margin-bottom: 14px;
+    text-transform: uppercase;
+    font-size: 12pt;
+    letter-spacing: 1px;
+    color: #6bb1eb;
+
+}
+
+.descricao {
+    padding: 0 30px 0 30px;
+    text-align: center;
+    font-size: 15pt;
+    color: #7491a5;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+.box-setas{
+    display: flex;
+    padding: 10px;
+    height: 7px;
+}
+
+
+#seta-left{
+    display: flex;
+    height: 20px;
+    width: 40px;
+}
+
+#seta-right{
+    display: flex;
+    height: 20px;
+    width: 40px;
+}
+
+#seta-left:hover{
+    cursor: pointer;
+    height: 24px;
+}
+#seta-right:hover{
+    cursor: pointer;
+    height: 24px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    font-family: 'Arimo', sans-serif;
+    cursor: pointer;
+
+    width: 100px;
+    height: 28px;
+    margin: 13px 0 17px 0;
+    border: 2px solid #5a89ac;
+    border-radius: 9px;
+    background-color: #ecf7ff;
+    color: #5a89ac;
+    font-weight: 400;
+}
+
+
+.btn:hover {
+    background-color:#49a6ea;
+    color: black;
+    transition: 500ms;
+    cursor: pointer;
+}
+/*
+font-family: 'Arimo', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+*/
